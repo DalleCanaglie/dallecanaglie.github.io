@@ -13,12 +13,13 @@
             text-align: center;
         }
         .container {
-            max-width: 1000px;
-            margin: 50px auto;
+            max-width: 600px;
+            margin: auto;
             padding: 20px;
             background-color: #fef9e7;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Prevents content from spilling out */
         }
         .logo {
             max-width: 500px;
@@ -34,6 +35,7 @@
         .funny-image {
             max-width: auto;
             height: auto; /* Maintain aspect ratio */
+            display: block; /* Removes any extra space below the image */
         }
     </style>
 </head>
